@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const morgan = require("morgan");
 
-mongoose.connect('mongodb://localhost/my-blog');
+mongoose.connect('mongodb://heroku_fjfgpqng:ucqd8rktijtr4a4arrkksubv8a@ds229878.mlab.com:29878/heroku_fjfgpqng');
 mongoose.Promise = Promise;
 
 const app = express();
