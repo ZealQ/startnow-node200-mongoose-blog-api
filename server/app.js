@@ -14,7 +14,7 @@ app.use(morgan("dev"));
 
 
 app.get('/', (req, res) => {
-    res.status(200).send();
+    res.status(200).send("Do /api/blogs or api/users");
 });
 
 
